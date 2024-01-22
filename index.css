@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.types-of-patients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.3rem;
+    max-width: 1200px;
+
+}
+.types-of-patients h1{
+    font-size: 1.5rem;
+}
+.types-of-patients p{
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: gray;
+    
+}
+
+.discription{
+    text-align: center;
+}
+.discription p{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.discription h1{
+    padding: 0.5rem;
+}
+
+
+.tag{
+    display: block;
+    min-width: 140px;
+}
+.tag h1{
+    font-size: 0.5rem;
+    width: 100px;
+}
+.tag p{
+    font-size: 0.55rem;
+
+    
+}
+
+.imagesection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+.imagesection h1{
+    background-color: rgb(191, 191, 225);
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+.imagesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 1rem;
+    padding: 1rem;
+   
+
+
+}
+.imagesection img{
+    height: 10rem;
+    padding: 1rem;
+
+
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 150px;
+    min-width: 100px;
+    padding: 1rem;
+ 
+    
+    border-radius: 5px;
+    background-color: rgb(189, 189, 234);
+}
+
+
+.descrip h1{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+.descrip p{
+    font-size: 0.6rem;
+    line-height: 1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+ 
+}
+
+@media only screen and (max-width : 600px){
+    .tag{
+        display: none;
+    }
+    .section-2{
+        
+        grid-template-columns: 1fr 1fr   ;
+     
+    }
+}
+
+@media screen  and (max-width:300px){
+    .section-2{
+        
+        grid-template-columns: 1fr    ;
+     
+    }
+    
+}
+
